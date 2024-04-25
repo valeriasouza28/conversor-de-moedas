@@ -22,6 +22,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner readInput =  new Scanner(System.in);
+       // Substitua por sua api  key: String apikey = "sua api key"
         ApiKey getApiKey = new ApiKey();
         String apiKey = getApiKey.getApiKey();
         System.out.println("Digite a moeda que de origem");
